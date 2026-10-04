@@ -1,0 +1,36 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Namaste React.j ",
+  "keywords": [
+    "React",
+    "sanjay"
+  ],
+  "homepage": "https://github.com/websanju/namaste-react#readme",
+  "bugs": {
+    "url": "https://github.com/websanju/namaste-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websanju/namaste-react.git"
+  },
+  "license": "ISC",
+  "author": "Sanjay Kumbhar",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^6.30.1"
+  }
+}
